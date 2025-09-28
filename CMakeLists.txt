@@ -267,6 +267,7 @@ target_link_libraries( tint2 ${X11_LIBRARIES}
                              ${CAIRO_LIBRARIES}
                              ${GLIB2_LIBRARIES}
                              ${GOBJECT2_LIBRARIES}
+                             m
 							 ${IMLIB2_LIBRARIES}
 							 ${UNWIND_LIBRARIES}
 							 ${EXECINFO_LIBRARIES} )

@@ -64,6 +64,7 @@ target_link_libraries( tint2conf ${X11_T2C_LIBRARIES}
                                  ${IMLIB2_LIBRARIES}
                                  ${GTHREAD2_LIBRARIES}
                                  ${GTK3_LIBRARIES}
+                                 m
                                  ${RSVG_LIBRARIES} )
 
 add_definitions( -DINSTALL_PREFIX=\"${CMAKE_INSTALL_PREFIX}\" )
